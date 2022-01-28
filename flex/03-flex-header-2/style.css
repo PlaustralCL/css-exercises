@@ -25,8 +25,6 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
-
-  margin-left: 16px;
 }
 
 .logo {
@@ -48,8 +46,6 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-
-  margin-left: 16px;
 }
 
 ul {
@@ -57,18 +53,20 @@ ul {
 
   display: flex;
   margin: 0px;
-  margin-left: 16px;
   padding: 0px;
+  gap: 16px;
 }
 
 
 .left-side {
   display: flex;
   align-items: center;
+  gap: 16px;
 }
 
 .right-side {
   display: flex;
   align-items: center;
+  gap: 16px;
 }
 
