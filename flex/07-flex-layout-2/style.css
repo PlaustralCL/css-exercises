@@ -15,7 +15,11 @@ body {
   background: darkmagenta;
   color: white;
 
-  padding-left: 12px;
+  padding-left: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 900;
 }
 
 .footer {
@@ -33,6 +37,7 @@ body {
   width: 300px;
   background: royalblue;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
@@ -40,9 +45,10 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 
-  width: 325px;
+  width: 300px;
   height: 300px;
   padding: 16px;
+  flex: 0 1 auto;
 }
 
 .container {
@@ -57,21 +63,26 @@ body {
   justify-content: flex-start;
   align-items: center;
   align-content: flex-start;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
+  padding: 32px;
 }
 
 a {
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   text-decoration: none;
 }
 
 ul {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  list-style: none;
+  gap: 16px;
+  list-style-type: none;
   font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  padding: 0px;
+  margin: 0px;
 }
